@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FK ENTERPRISES</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+
+        <div class="logo">
+            🥬 FK ENTERPRISES
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About Us</a>
+            <a href="#cart">Cart 🛒</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">
+                WELCOME TO FK ENTERPRISES
+            </p>
+
+            <h1>
+                Fresh Vegetables<br>
+                For Your Family
+            </h1>
+
+            <p>
+                Fresh • Quality • Affordable
+            </p>
+
+            <a href="#products" class="shop-button">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section id="products" class="products-section">
+
+        <p class="small-title">
+            OUR PRODUCTS
+        </p>
+
+        <h2>
+            Fresh From Our Shop
+        </h2>
+
+        <p class="section-description">
+            Quality vegetables carefully selected for your everyday cooking.
+        </p>
+
+
+        <div class="products-container">
+
+
+            <!-- ONION -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://www.millenniumpost.in/h-upload/2025/03/11/838337-stockpti12312022083-1.webp"
+                        alt="Fresh Onion">
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Fresh Onion
+                    </h3>
+
+                    <p>
+                        Fresh and quality onions for everyday cooking.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <span class="price">
+                            ₹40 / kg
+                        </span>
+
+                        <button
+                            onclick="addToCart('Onion', 40)">
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- POTATO -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://gardenerspath.com/wp-content/uploads/2024/04/Pile-of-Potatoes.jpg"
+                        alt="Fresh Potato">
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Fresh Potato
+                    </h3>
+
+                    <p>
+                        Fresh farm potatoes, perfect for daily meals.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <span class="price">
+                            ₹35 / kg
+                        </span>
+
+                        <button
+                            onclick="addToCart('Potato', 35)">
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- GARLIC -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://www.almanac.com/sites/default/files/image_nodes/garlic-growing-guide.jpg"
+                        alt="Fresh Garlic">
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Fresh Garlic
+                    </h3>
+
+                    <p>
+                        Fresh garlic with great taste and aroma.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <span class="price">
+                            ₹120 / kg
+                        </span>
+
+                        <button
+                            onclick="addToCart('Garlic', 120)">
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- GINGER -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://5.imimg.com/data5/ME/EP/ZA/SELLER-91046977/ginger-500x500.jpg"
+                        alt="Fresh Ginger">
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Fresh Ginger
+                    </h3>
+
+                    <p>
+                        Fresh natural ginger for delicious cooking.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <span class="price">
+                            ₹100 / kg
+                        </span>
+
+                        <button
+                            onclick="addToCart('Ginger', 100)">
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT US ================= -->
+
+    <section id="about" class="about-section">
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <p class="small-title">
+                    ABOUT US
+                </p>
+
+                <h2>
+                    Freshness You Can Trust
+                </h2>
+
+                <p>
+                    Welcome to Fresh Basket Vegetable Shop.
+                    We are a local vegetable shop providing
+                    fresh and quality vegetables for your
+                    everyday cooking needs.
+                </p>
+
+                <p>
+                    We specialize in fresh onions, potatoes,
+                    garlic and ginger. We carefully select
+                    our products so that our customers receive
+                    good quality vegetables at reasonable prices.
+                </p>
+
+                <p>
+                    Our goal is simple — fresh products,
+                    fair prices and happy customers.
+                </p>
+
+            </div>
+
+
+            <!-- OWNER -->
+
+            <div class="owner-card">
+
+                <div class="owner-image">
+
+                    <img
+                        src="C:\Users\tasmiya khanum\OneDrive\Desktop\website\WhatsApp Image 2026-09-24 at 19.52.37.jpeg"
+                        alt="Shop Owner">
+
+                </div>
+
+                <h3>
+                    Meet Our Owner
+                </h3>
+
+                <h4>
+                    FAIROZ KHAN
+                </h4>
+
+                <p>
+                    Owner, Fresh Basket Vegetable Shop
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SHOP ADDRESS ================= -->
+
+    <section class="address-section">
+
+        <p class="small-title">
+            FIND US
+        </p>
+
+        <h2>
+            Visit Our Shop
+        </h2>
+
+
+        <div class="address-container">
+
+
+            <div class="address-box">
+
+                <div class="address-icon">
+                    📍
+                </div>
+
+                <h3>
+                    Shop Address
+                </h3>
+
+                <p>
+                    FK ENTERPRISES
+                </p>
+
+                <p>
+                    MADIWALA MARKET
+                </p>
+
+                <p>
+                    Bangalore, Karnataka
+                </p>
+
+                <p>
+                    India
+                </p>
+
+            </div>
+
+
+
+            <div class="address-box">
+
+                <div class="address-icon">
+                    📞
+                </div>
+
+                <h3>
+                    Phone
+                </h3>
+
+                <p>
+                    +91 9886090853
+                </p>
+
+            </div>
+
+
+
+            <div class="address-box">
+
+                <div class="address-icon">
+                    🕐
+                </div>
+
+                <h3>
+                    Opening Hours
+                </h3>
+
+                <p>
+                    Monday - Sunday
+                </p>
+
+                <p>
+                    7:00 AM - 7:00 PM
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CART ================= -->
+
+    <section id="cart" class="cart-section">
+
+        <p class="small-title">
+            SHOPPING CART
+        </p>
+
+        <h2>
+            Your Cart 🛒
+        </h2>
+
+
+        <div id="cart-items">
+
+            <p class="empty-cart">
+                Your cart is empty.
+            </p>
+
+        </div>
+
+
+        <div class="cart-total">
+
+            <h3 id="total">
+                Total: ₹0
+            </h3>
+
+            <button
+                class="order-button"
+                onclick="placeOrder()">
+
+                Place Order
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact-section">
+
+        <div>
+
+            <p class="small-title">
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                Contact Us
+            </h2>
+
+            <p>
+                Have a question or want to place an order?
+            </p>
+
+            <div class="contact-details">
+
+                <p>
+                    📞 +91 9886090853
+                </p>
+
+                <p>
+                    📧 fK.FAIROZKHHAN0@gmail.com
+                </p>
+
+                <p>
+                    📍 MADIWALA MARKET Bangalore, Karnataka
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h3>
+            🥬 FK ENTERPRISES
+        </h3>
+
+        <p>
+            Fresh Vegetables • Healthy Life • Better Tomorrow
+        </p>
+
+        <p>
+            © FK ENTERPRISES MADIWALA MARKET
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
